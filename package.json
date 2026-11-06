@@ -1,0 +1,59 @@
+{
+  "name": "anachrome",
+  "version": "0.1.0",
+  "description": "High-performance WebGPU CRT, photochemical halation & optical physics post-processing engine for any website. Zero dependencies.",
+  "author": "Doko (https://github.com/DodolKo)",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DodolKo/anachrome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DodolKo/anachrome/issues"
+  },
+  "homepage": "https://github.com/DodolKo/anachrome#readme",
+  "type": "module",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./react": "./src/react/AnachromeCanvas.tsx",
+    "./vue": "./src/vue/AnachromeCanvas.vue",
+    "./vanilla": "./src/vanilla/index.ts",
+    "./presets": "./src/presets/presets.ts"
+  },
+  "keywords": [
+    "webgpu",
+    "crt",
+    "scanlines",
+    "halation",
+    "cinestill",
+    "kodak",
+    "bloom",
+    "film-grain",
+    "postprocessing",
+    "retro",
+    "analog",
+    "react",
+    "vue",
+    "nuxt"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "vue": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.0.0"
+  }
+}
